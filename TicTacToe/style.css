@@ -1,0 +1,115 @@
+.container {
+  background: #fff;
+  padding: 32px 40px 24px 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.12);
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 24px;
+  color: #333;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 80px);
+  grid-template-rows: repeat(3, 80px);
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.players {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin: 18px;
+}
+
+.players > span {
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.player.active {
+  background: #0d6efd;
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(13, 110, 253, 0.18);
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 90px);
+  grid-template-rows: repeat(3, 90px);
+  gap: 12px;
+  margin-bottom: 22px;
+  justify-content: center;
+}
+
+.cell {
+  width: 90px;
+  height: 90px;
+  background: #e9ecef;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.7rem;
+  color: #222;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s, color 0.2s;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+.cell:hover {
+  background: #d1e7dd;
+  box-shadow: 0 2px 8px rgba(13, 110, 253, 0.08);
+}
+.cell.winner {
+  background: #0d6efd;
+  color: #fff;
+  box-shadow: 0 2px 12px rgba(13, 110, 253, 0.18);
+  animation: winnerPulse 0.7s infinite alternate;
+}
+@keyframes winnerPulse {
+  0% {
+    box-shadow: 0 2px 12px rgba(13, 110, 253, 0.18);
+  }
+  100% {
+    box-shadow: 0 4px 24px rgba(13, 110, 253, 0.28);
+  }
+}
+
+.status {
+  min-height: 28px;
+  margin-bottom: 18px;
+  font-size: 1.15rem;
+  color: #444;
+  font-weight: 500;
+}
+
+#reset-btn {
+  padding: 10px 28px;
+  font-size: 1.05rem;
+  border: none;
+  border-radius: 8px;
+  background: #0d6efd;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 1px 4px rgba(13, 110, 253, 0.08);
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+#reset-btn:hover {
+  background: #0a58ca;
+  box-shadow: 0 2px 8px rgba(13, 110, 253, 0.18);
+}
+
+.status {
+  min-height: 24px;
+  margin-bottom: 16px;
+  font-size: 1.1rem;
+  color: #444;
+}
