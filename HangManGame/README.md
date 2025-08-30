@@ -32,4 +32,4 @@ The game fetches questions from an API and falls back to local data if needed. I
 - Timer mode
 
 ## Live Demo
-<code>https://shorturl.at/ylFNu<code>
+<code>https://shorturl.at/KSpW7<code>
