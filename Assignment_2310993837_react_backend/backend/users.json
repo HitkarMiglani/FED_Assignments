@@ -1,0 +1,22 @@
+[
+  {
+    "id": "c078b97c-62e2-4c7b-a7c5-5e49aa947b9d",
+    "name": "Dana",
+    "passwordHash": "$2a$10$B0mjf6/gNzJrFPn5s57UWORfXp6spugMt55GXzv5FqrvdJfeKheIi"
+  },
+  {
+    "id": "6a917315-9531-4144-87db-de62b4566b53",
+    "name": "Hitkar",
+    "passwordHash": "$2a$10$CKwK1/DDoTFLl0GUEdfjnOLfRfo6qbkVQhJsbEVz8nscnonLkqoRe"
+  },
+  {
+    "id": "44315cdb-0c2c-4075-9ec0-cbf085e8cb41",
+    "name": "Student_248",
+    "passwordHash": "$2a$10$cOaLesY3QnSuAcc/I96nAuM2FW51UPoITGNHJ7QUUyIRzVF5.3Q4O"
+  },
+  {
+    "id": "d6b3f413-c1fc-4d87-beaf-c48931cffe1d",
+    "name": "Alice",
+    "passwordHash": "$2a$10$mKoRk2HLgV5xg3vwC7xoBOrwR0fx4D/5BMNY1jOj8HmKkhrG/BZSe"
+  }
+]
